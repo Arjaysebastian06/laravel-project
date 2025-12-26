@@ -14,186 +14,112 @@
 
 </head>
 <body>
-<div class="container py-5">
-    <table id="example" class="table table-striped table-bordered nowrap" style="width:100%">
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8">
+    <table id="example" class="table table-borderless job-table w-100">
         <thead>
-        <tr>
-            <th>Name</th>
-            <th>Position</th>
-            <th>Office</th>
-            <th>Age</th>
-            <th>Start date</th>
-            <th>Salary</th>
-        </tr>
+            <tr><th></th></tr>
         </thead>
         <tbody>
-        <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-            <td>61</td>
-            <td>2011-04-25</td>
-            <td>$320,800</td>
-        </tr>
-        <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-            <td>61</td>
-            <td>2011-04-25</td>
-            <td>$320,800</td>
-        </tr>
-        <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-            <td>61</td>
-            <td>2011-04-25</td>
-            <td>$320,800</td>
-        </tr>
-        <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-            <td>61</td>
-            <td>2011-04-25</td>
-            <td>$320,800</td>
-        </tr>
-        <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-            <td>61</td>
-            <td>2011-04-25</td>
-            <td>$320,800</td>
-        </tr>
-        <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-            <td>61</td>
-            <td>2011-04-25</td>
-            <td>$320,800</td>
-        </tr>
 
-        <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-            <td>61</td>
-            <td>2011-04-25</td>
-            <td>$320,800</td>
-        </tr>
-        <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-            <td>61</td>
-            <td>2011-04-25</td>
-            <td>$320,800</td>
-        </tr>
-        <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-            <td>61</td>
-            <td>2011-04-25</td>
-            <td>$320,800</td>
-        </tr>
-        <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-            <td>61</td>
-            <td>2011-04-25</td>
-            <td>$320,800</td>
-        </tr>
-        <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-            <td>61</td>
-            <td>2011-04-25</td>
-            <td>$320,800</td>
-        </tr>
-        <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-            <td>61</td>
-            <td>2011-04-25</td>
-            <td>$320,800</td>
-        </tr>
-        <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-            <td>61</td>
-            <td>2011-04-25</td>
-            <td>$320,800</td>
-        </tr>
-        <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-            <td>61</td>
-            <td>2011-04-25</td>
-            <td>$320,800</td>
-        </tr>
-        <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-            <td>61</td>
-            <td>2011-04-25</td>
-            <td>$320,800</td>
-        </tr>
-        <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-            <td>61</td>
-            <td>2011-04-25</td>
-            <td>$320,800</td>
-        </tr>
-        <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-            <td>61</td>
-            <td>2011-04-25</td>
-            <td>$320,800</td>
-        </tr>
-        <tr>
-            <td>Tiger Nixon</td>
-            <td>System Architect</td>
-            <td>Edinburgh</td>
-            <td>61</td>
-            <td>2011-04-25</td>
-            <td>$320,800</td>
-        </tr>
-        <tr>
-            <td>Garrett Winters</td>
-            <td>Accountant</td>
-            <td>Tokyo</td>
-            <td>63</td>
-            <td>2011-07-25</td>
-            <td>$170,750</td>
-        </tr>
-        <!-- Add more rows here -->
+            <tr>
+                <td>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h5 class="text-danger mb-1">
+                                HQTS Netherlands – Sales Department Manager
+                            </h5>
+                            <small class="text-muted">
+                                Amsterdam, Eindhoven, Rotterdam
+                            </small>
+                        </div>
+                        <div class="text-end">
+                            <div class="text-muted">Management, Sales</div>
+                            <a href="#" class="text-danger">More Details →</a>
+                        </div>
+                    </div>
+                    <hr>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h5 class="text-danger mb-1">
+                                Spain B2B Sales Department Manager
+                            </h5>
+                            <small class="text-muted">Madrid</small>
+                        </div>
+                        <div class="text-end">
+                            <div class="text-muted">Sales</div>
+                            <a href="#" class="text-danger">More Details →</a>
+                        </div>
+                    </div>
+                    <hr>
+                </td>
+            </tr>
+
         </tbody>
-        <tfoot>
-        <tr>
-            <th>Name</th>
-            <th>Position</th>
-            <th>Office</th>
-            <th>Age</th>
-            <th>Start date</th>
-            <th>Salary</th>
-        </tr>
-        </tfoot>
     </table>
 </div>
+
+<div class="col-md-4">
+    <div class="card shadow-sm">
+        <div class="card-header bg-danger text-white text-center fw-bold">
+            Need More Information?
+        </div>
+
+        <div class="card-body">
+            <form>
+                <div class="mb-2">
+                    <label>Name <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="mb-2">
+                    <label>Email <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control">
+                </div>
+
+                <div class="mb-2">
+                    <label>Phone <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="mb-2">
+                    <label>Company <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="mb-2">
+                    <label>Your Country <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="mb-2">
+                    <label>Your Product <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label>Message</label>
+                    <textarea class="form-control" rows="4"
+                        placeholder="Please let us know about the supplier location and the service you require"></textarea>
+                </div>
+
+                <button class="btn btn-danger w-100">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+    </div>
+</div>
+
+
+
 
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
