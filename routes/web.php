@@ -8,7 +8,7 @@ use App\Http\Controllers\AdminUserController;
 
 // Home page
 Route::get('/', function () {
-    return view('home');
+    return view('example');
 });
 
 // Login page & function
