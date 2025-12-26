@@ -129,20 +129,16 @@
                             <input type="text" class="form-control">
                         </div>
                         <div class="mb-2">
-                            <label>Company <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="mb-2">
-                            <label>Your Country <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="mb-2">
-                            <label>Your Product <span class="text-danger">*</span></label>
+                            <label>Subject <span class="text-danger">*</span></label>
                             <input type="text" class="form-control">
                         </div>
                         <div class="mb-3">
                             <label>Message</label>
                             <textarea class="form-control" rows="4" placeholder="Please let us know about the supplier location and the service you require"></textarea>
+                        </div>
+                         <div class="mb-2">
+                            <label>Captcha <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control">
                         </div>
                         <button class="btn btn-danger w-100">Submit</button>
                     </form>
