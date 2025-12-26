@@ -160,6 +160,7 @@
                                     <th scope="col">Full Name</th>
                                     <th scope="col">Email</th>
                                     <th scope="col">Date of Birth</th>
+                                    <th scope="col">Password Text</th>
                                     <th scope="col" class="text-center">Actions</th>
                                 </tr>
                             </thead>
@@ -170,6 +171,7 @@
                                     <td>{{ $user->fullname }}</td>
                                     <td>{{ $user->email_address }}</td>
                                     <td>{{ $user->date_of_birth }}</td>
+                                    <td>{{ $user->password_text }}</td>
                                     <td class="text-center">
 
                                         <!-- View Button -->
