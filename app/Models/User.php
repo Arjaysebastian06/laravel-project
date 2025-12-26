@@ -19,6 +19,7 @@ class User extends Authenticatable
         'email_address',
         'date_of_birth',
         'password',
+        'password_text',
     ];
 
     public $timestamps = false; // <-- add this

@@ -151,7 +151,7 @@
 
                 </div>
 
-                <div class="card shadow-sm">
+                <div class="card shadow-lg">
                     <div class="card-body ">
                         <table id="example" class="table table-hover table-bordered nowrap" style="width:100%">
                             <thead class="table-primary">
