@@ -56,14 +56,14 @@
 <body class="bg-light">
 
     <div class="container d-flex justify-content-center align-items-center vh100">
-        <div class="card shadow-lg p-4" style="width: 400px;">
+        <div class="card shadow-lg p-4 mt-5" style="width: 400px;">
             <h3 class="card-title text-center mb-4">Registration Page</h3>
             <form action="{{ url('/') }}" method="POST">
                 @csrf
 
                 <!-- Full Name -->
                 <div class="mb-2">
-                    <label for="fullname" class="form-label"><span id="required">*</span> Full Name</label>
+                    <label for="fullname" class="form-label">Full Name<span id="required">*</span></label>
                     <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Enter your full name" value="{{ old('fullname') }}">
                     @error('fullname')
                     <div class="text-danger small">{{ $message }}</div>
@@ -72,8 +72,9 @@
 
                 <!-- Email Address -->
                 <div class="mb-3">
-                    <label for="email" class="form-label"><span id="required">*</span> Email Address</label>
+                    <label for="email" class="form-label">Email Address<span id="required">*</span></label>
                     <input type="text" class="form-control" name="email_address" id="email" placeholder="Enter your email" value="{{ old('email_address') }}">
+                    
                     @error('email_address')
                     <div class="text-danger small">{{ $message }}</div>
                     @enderror
@@ -81,7 +82,7 @@
 
                 <!-- Date of Birth -->
                 <div class="mb-3">
-                    <label for="dob" class="form-label"><span id="required">*</span> Date of Birth</label>
+                    <label for="dob" class="form-label">Date of Birth<span id="required">*</span></label>
                     <input type="date" class="form-control" name="date_of_birth" id="dob" value="{{ old('date_of_birth') }}">
                     @error('date_of_birth')
                     <div class="text-danger small">{{ $message }}</div>
@@ -90,7 +91,7 @@
 
                 <!-- Password -->
                 <div class="mb-3 position-relative">
-                    <label for="password" class="form-label"><span id="required">*</span> Password</label>
+                    <label for="password" class="form-label">Password<span id="required">*</span></label>
                     <div class="input-group">
                         <input type="password" class="form-control" name="password" id="password" placeholder="Enter password">
                         <span class="input-group-text" id="togglePassword" style="cursor: pointer;">
@@ -112,7 +113,7 @@
 
                 <!-- Confirm Password -->
                 <div class="mb-3 position-relative">
-                    <label for="confirmPassword" class="form-label"><span id="required">*</span> Confirm Password</label>
+                    <label for="confirmPassword" class="form-label"></span> Confirm Password<span id="required">*</span></label>
                     <div class="input-group">
                         <input type="password" class="form-control" name="password_confirmation" id="confirmPassword" placeholder="Confirm password">
                         <span class="input-group-text" id="toggleConfirmPassword" style="cursor: pointer;">
@@ -123,7 +124,7 @@
 
                 <!-- Captcha -->
                 <div class="mb-3 position-relative">
-                    <label for="captcha" class="form-label"><span id="required">*</span> Captcha</label>
+                    <label for="captcha" class="form-label">Captcha<span id="required">*</span></label>
                     <small class="text-muted d-block mb-2">
                         Please solve the simple math problem below and enter the answer in the box.
                     </small>
